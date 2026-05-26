@@ -1,10 +1,19 @@
-
-.textobolo{
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Vast+Shadow&display=swap');
+.title{
+    font-size: 50px;
+    font-family: Chango;
     text-align: center;
+}
+.intro{
+    text-align: center;
+    font-size: 20px;
+}
+.textobolo{
+    text-align: left;
     font-size: 50px;
 }
 #receitadestaque{
-    text-align: center;
+    text-align: left;
     font-size: 25px;
 }
 body{
@@ -12,9 +21,14 @@ body{
 }
 .imagembolo{
     display: block;
-    margin-left: auto;
+    margin-left: 0px;
     margin-right: auto;
     width: 25%;
+    background-color: dodgerblue ;
+    border: 15px solid darkseagreen;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 0px 10px;
 }
 .link{
     text-align: center;
@@ -29,4 +43,23 @@ body{
     margin-right: 30px;
     padding: 0;
     margin: 0;
+}
+.navegacao{
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 23px;
+    align-items: center;
+    flex-direction: column;
+}
+.navegacao a{
+    color:darkgoldenrod;
+    border: 2px solid black;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 0px 10px;
+    background-color: aliceblue;
 }
