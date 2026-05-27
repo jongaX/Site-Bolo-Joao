@@ -63,3 +63,7 @@ body{
     margin: 0px 10px;
     background-color: aliceblue;
 }
+footer{
+    text-align: center;
+    font-weight: bold;
+}
