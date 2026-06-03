@@ -77,3 +77,34 @@ table{
    border: 15px solid dodgerblue;
     border-radius: 10px;
 }
+hr{
+    padding: 5px;
+    background-color: khaki;
+    margin: 100px;
+    border-radius: 10px ;
+}
+.video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+   border: 15px solid tan;
+    border-radius: 10px;
+    padding: 10px;
+}
+.titulos{
+    font-size: 40px;
+    text-align: center;
+    background-color: khaki;
+    border: 10px solid brown;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 10px;
+}
+#receitadestaque{
+    font-size: 40px;
+    margin-right: 1193px;
+    background-color: khaki;
+    border: 10px solid brown;
+    border-radius: 10px;
+}
